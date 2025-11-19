@@ -1,0 +1,20 @@
+---
+- name: Configure frontend (Ubuntu)
+  hosts: server_role_frontend_server
+  become: true
+  vars:
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: ~/.ssh/aws
+  roles:
+    - frontend
+
+- name: Configure redis server (Rocky)
+  hosts: server_role_redis_server
+  become: true
+  vars:
+    ansible_user: rocky
+    ansible_ssh_private_key_file: ~/.ssh/aws
+  roles:
+    - redis
+
+
