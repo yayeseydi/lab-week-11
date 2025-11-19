@@ -86,4 +86,6 @@ Uses the AWS EC2 dynamic inventory plugin
 
 
 The screenshot shows the HTML page served by the Ubuntu frontend server:
+![Frontend Server Screenshot](ubuntu.PNG)
+
 
