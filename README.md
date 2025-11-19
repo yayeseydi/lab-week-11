@@ -11,7 +11,7 @@ The objective of the lab was to refactor an existing Ansible configuration into 
 ---
 
 ## Repository Structure
-
+```
 .
 ├── README.md
 ├── server-img.jpg
@@ -38,9 +38,7 @@ The objective of the lab was to refactor an existing Ansible configuration into 
 └── scripts/
 ├── import_lab_key
 └── delete_lab_key
-
-yaml
-Copy code
+```
 
 ---
 
